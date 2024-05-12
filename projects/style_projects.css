@@ -1,0 +1,30 @@
+div.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.main-container-element{
+    display: flex;
+    background-color:#DCF5F5;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.main-container-element:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+div a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-container-element h1{
+    text-align: center;
+    color: black;
+}
